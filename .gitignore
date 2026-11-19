@@ -1,0 +1,23 @@
+# --- Visual Studio build output and caches (~500 MB) ---
+Graphics_1/visual_studio/.vs/
+Graphics_1/visual_studio/Graphics_1/x64/
+*.exe
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.idb
+*.tlog
+*.log
+
+# --- macOS build (makefile output) and Finder files ---
+Graphics_1/gfx
+.DS_Store
+
+# --- Third-party 3D models and textures (not ours to redistribute) ---
+# Sources are listed in README.md. Download them into these folders to run the scene.
+# plane.obj and sphere.obj are kept: simple meshes used for the fire and the sky/Earth.
+Graphics_1/assets/*
+!Graphics_1/assets/plane.obj
+!Graphics_1/assets/sphere.obj
+Graphics_1/textures/

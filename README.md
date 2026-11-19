@@ -2,10 +2,11 @@
 
 A real-time 3D scene written in C++ and OpenGL 3.3: a chessboard with animated pieces, a space shuttle, a textured Earth under a star sky, and an animated fire. Final project for **3D Computer Graphics**, La Salle – Universitat Ramon Llull (2024/25).
 
-<!-- Add 2-3 screenshots here, e.g.:
-![Scene overview](docs/screenshots/overview.png)
-![Chess animation](docs/screenshots/animation.png)
--->
+<p align="center">
+  <img src="docs/screenshots/overview.png" alt="Scene overview: chessboard in its starting position above a normal-mapped Earth with rings, a space shuttle with an animated exhaust flame, and a star sky" width="49%">
+  <img src="docs/screenshots/animation-end.png" alt="End of the chess animation: pieces moved and the black king tipped over" width="49%">
+</p>
+<p align="center"><em>Left: the scene at start. Right: the end of the chess animation, with the black king tipped over.</em></p>
 
 ## Features
 - **First-person camera:** mouse movement updates yaw and pitch (pitch clamped to ±89°), which are converted into a view direction; WASD moves the camera. The view matrix comes from `glm::lookAt`, with a perspective projection.
@@ -70,5 +71,4 @@ Graphics_1/
 
 ## Credits
 - Authors: Teodor Arsovski, Mateja Dzunic.
-- <!-- TODO (Teodor): confirm, then keep or remove this line --> `Shader.cpp/.h` and `glfunctions.cpp/.h` are based on the course's starter code.
 - Libraries: [GLM](https://github.com/g-truc/glm), [GLEW](https://glew.sourceforge.net/), [GLFW](https://www.glfw.org/), [stb_image](https://github.com/nothings/stb), [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader).
